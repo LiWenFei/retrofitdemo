@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         Api apiService = new ApiService().createRestApi();
 
-        Call<User> call = apiService.getInfo("18810506338", "123456");
+        Call<User> call = apiService.getInfo("12345678900", "123456");
         HttpUtil.execute(this, call, new MyCallBack<User>() {
             @Override
             public void onSuccess(Call<User> call, User bean) {
