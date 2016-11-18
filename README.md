@@ -10,7 +10,7 @@
 * `HttpUtil`中同步请求`execute`要在子线程中开启，结果返回为主线程
 * `MyTask`异步任务类，自定义线程池
 
-#### 引用库以及配置
+## 引用库以及配置
   在主Module中的build.gradle配置：
   
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
